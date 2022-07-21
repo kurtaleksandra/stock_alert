@@ -56,6 +56,6 @@ if abs(perc_difference) >= 5:
         .create(
         body=message_text,
         from_=PHONE_NUMBER,
-        to="+48883965983"
+        to="+48123456789"
     )
     print(message.status)
